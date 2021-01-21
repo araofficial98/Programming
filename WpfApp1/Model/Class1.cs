@@ -8,5 +8,5 @@ namespace WpfApp1.Model
 {
     class Class1
     {
-    }
+    }dwadawawadad
 }
