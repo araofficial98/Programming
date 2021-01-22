@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Stores" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="adressWink" HorizontalAlignment="Left" Height="23" Margin="171.561,117.283,0,0" TextWrapping="Wrap" Text="Adress winkel" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="stadWink" HorizontalAlignment="Left" Height="23" Margin="171.561,166.722,0,0" TextWrapping="Wrap" Text="Stad" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="maxWink" HorizontalAlignment="Left" Height="23" Margin="171.561,216.162,0,0" TextWrapping="Wrap" Text="Max cap" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddKnop" Content="Voeg winkel toe" HorizontalAlignment="Left" Margin="184.274,283.762,0,0" VerticalAlignment="Top" Width="107.287" Height="32.068" Background="#FF3DD13D" Click="AddKnop_Click"/>
     </Grid>
 </Window>
