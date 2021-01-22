@@ -116,5 +116,23 @@
   <ItemGroup>
     <Resource Include="1cfe086ece5a6e3b15a41b31f7fc3d09.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\png-transparent-bicycle-cycling-bikes-bicycle-frame-bicycle-hybrid-bicycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img_566102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\73-733210_store-black-png-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\free-store-icon-png-vector-pixsector-store-icon-png-560_560.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
