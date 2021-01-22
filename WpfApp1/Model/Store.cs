@@ -14,13 +14,6 @@ namespace WpfApp1.Model
         public int MaxCapacity { get; set; }
         public List<string> Bikes = new List<string> {};
 
-        public Store(string add, string stad, int max)
-        {
-            add = Address;
-            stad = City;
-            max = MaxCapacity;
-        }
-
         
 
 

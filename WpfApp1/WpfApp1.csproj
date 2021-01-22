@@ -58,6 +58,9 @@
     <Compile Include="Views\Bikes.xaml.cs">
       <DependentUpon>Bikes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\StoreResult.xaml.cs">
+      <DependentUpon>StoreResult.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Stores.xaml.cs">
       <DependentUpon>Stores.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\Bikes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StoreResult.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -10,30 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApp1.Views;
+using WpfApp1.Model;
 
-namespace WpfApp1
+namespace WpfApp1.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StoreResult.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StoreResult : Window
     {
-        public MainWindow()
+        public StoreResult(Store winkel)
         {
             InitializeComponent();
-        }
 
-        
-
-        private void StoresKnop_Click(object sender, RoutedEventArgs e)
-        {
-            Stores storewndw = new Stores();
-
-            storewndw.Show();
+            Result.Content = winkel.Address + ", " + winkel.City + ", " + winkel.MaxCapacity;
         }
     }
-
 }
