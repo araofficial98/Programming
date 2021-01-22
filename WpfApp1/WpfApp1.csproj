@@ -84,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Bike.cs" />
-    <Compile Include="Model\Class1.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Method.cs" />
     <Compile Include="Model\Reservation.cs" />

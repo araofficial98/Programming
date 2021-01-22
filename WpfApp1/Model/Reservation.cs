@@ -8,3 +8,5 @@ namespace WpfApp1.Model
 {
     public class Reservation
     {
+    }
+}

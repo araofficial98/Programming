@@ -19,7 +19,7 @@
             <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
         </Grid>
         <Image HorizontalAlignment="Left" Height="195" Margin="0,224,0,0" VerticalAlignment="Top" Width="176" Source="1cfe086ece5a6e3b15a41b31f7fc3d09.png"/>
-        <Button Content="Beheren Stores" HorizontalAlignment="Left" Height="50" Margin="160,270,0,0" VerticalAlignment="Top" Width="220" FontSize="22" FontFamily="Arial" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <Button x:Name="StoresKnop" Content="Beheren Stores" HorizontalAlignment="Left" Height="50" Margin="160,270,0,0" VerticalAlignment="Top" Width="220" FontSize="22" FontFamily="Arial" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="StoresKnop_Click"/>
         <Button Content="Beheren Bikes" HorizontalAlignment="Left" Height="50" Margin="420,270,0,0" VerticalAlignment="Top" Width="220" FontSize="22" FontFamily="Arial" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
         <TextBlock HorizontalAlignment="Left" Height="66" Margin="175,94,0,0" TextWrapping="Wrap" Text="Eindopdracht CSharp  CCSCSharp" VerticalAlignment="Top" Width="459" FontSize="48" Foreground="White"/>
     </Grid>

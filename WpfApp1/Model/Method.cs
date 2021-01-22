@@ -11,18 +11,6 @@ namespace WpfApp1.Model
 
         public int Amnt = Enum.GetNames(typeof(Bike.Type)).Length;
 
-        public static void SetBikes() {
-            for (int i = 0; i < Amnt; i++)
-            {
-                GetBikes()
-            }
-        }
-
-        private static List<string> GetBikes()
-        {
-            return Store.Bikes;
-        }
-
 
     }
 }
