@@ -17,13 +17,12 @@
             <TextBlock HorizontalAlignment="Left" Height="0" Margin="340,45,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="30"/>
             <TextBox x:Name="typeBike" HorizontalAlignment="Left" Height="23" Margin="171.561,88,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top" Width="120"/>
             <TextBox x:Name="brandBike" HorizontalAlignment="Left" Height="23" Margin="171.561,135,0,0" TextWrapping="Wrap" Text="Brand" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="maxBike" HorizontalAlignment="Left" Height="23" Margin="171.561,177,0,0" TextWrapping="Wrap" Text="Max cap" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="120"/>
             <TextBox x:Name="genderBike" HorizontalAlignment="Left" Height="23" Margin="480,88,0,0" TextWrapping="Wrap" Text="Gender" VerticalAlignment="Top" Width="120"/>
             <TextBox x:Name="sizeBike" HorizontalAlignment="Left" Height="23" Margin="480,135,0,0" TextWrapping="Wrap" Text="Size" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="hourRate" HorizontalAlignment="Left" Height="23" Margin="480,177,0,0" TextWrapping="Wrap" Text="Hour Rate" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="dailyRate" HorizontalAlignment="Left" Height="23" Margin="480,222,0,0" TextWrapping="Wrap" Text="DailyRate" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="hourRate" HorizontalAlignment="Left" Height="23" Margin="480,177,0,0" TextWrapping="Wrap" Text="Hour Rate" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="dailyRate" HorizontalAlignment="Left" Height="23" Margin="480,222,0,0" TextWrapping="Wrap" Text="DailyRate" VerticalAlignment="Top" Width="120"/>
 
-            <Button x:Name="AddKnopB" Content="Voeg Bike toe" HorizontalAlignment="Left" Margin="171.561,222,0,0" VerticalAlignment="Top" Width="107.287" Height="32.068" Background="#FF3DD13D" Click="AddKnop_Click" RenderTransformOrigin="0.559,-0.468"/>
+            <Button x:Name="AddKnopB" Content="Voeg Bike toe" HorizontalAlignment="Left" Margin="171.561,222,0,0" VerticalAlignment="Top" Width="107.287" Height="32.068" Background="#FF3DD13D" RenderTransformOrigin="0.559,-0.468"/>
             <Path Data="M175,110" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="175,110,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
             <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
                 <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>

@@ -34,6 +34,13 @@ namespace WpfApp1
 
             storewndw.Show();
         }
+
+        private void OpenBikeScherm(object sender, RoutedEventArgs e)
+        {
+            Bikes bikeScherm = new Bikes();
+
+            bikeScherm.Show();
+        }
     }
 
 }
